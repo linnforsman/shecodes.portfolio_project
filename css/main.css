@@ -1,0 +1,9 @@
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.fab {
+  font-size: 25px;
+}
