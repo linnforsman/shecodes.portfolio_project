@@ -6,11 +6,37 @@
     rgba(189, 189, 189),
     rgba(158, 158, 158),
     rgba(125, 125, 125),
-    rgba(105, 105, 105)
+    rgba(105, 105, 105),
   );
 }
 
+.hero {
+  padding: 15rem 15% 0;
+}
+
+.hero-title {
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 0, 0),
+    rgba(105, 105, 105),
+    rgba(125, 125, 125),
+    rgba(158, 158, 158),
+    rgba(189, 189, 189),
+    rgba(211, 211, 211)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 77px;
+  font-weight: auto;
+}
+
+.hero-subtitle {
+  color: gray;
+}
+
 body {
+  margin: 0 auto;
+  padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   overflow-y: scroll; /* Show scrollbar */
   overflow-x: hidden;
@@ -30,9 +56,7 @@ body {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
 }
 
-h1,
-h2,
-h3 {
+h1 {
   background: -webkit-linear-gradient(
     0deg,
     rgba(0, 0, 0),
@@ -47,7 +71,7 @@ h3 {
 }
 
 .btn {
-  color: darkred;
+  color: black;
   background-color: transparent;
   border: 0.9px;
   border-style: solid;
@@ -56,12 +80,23 @@ h3 {
 
 .btn:hover {
   color: white;
-  background-color: darkred;
+  background: -webkit-linear-gradient(
+    70deg,
+    rgba(0, 0, 0),
+    rgba(105, 105, 105),
+    rgba(125, 125, 125),
+    rgba(158, 158, 158),
+    rgba(189, 189, 189),
+    rgba(211, 211, 211)
+  );
+  transition: all 0.2s;
 }
 
 .skills-text {
   background-color: #00dbde;
-  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  background-image: linear-gradient(70deg, #00dbde 0%, #fc00ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .other-skills {
