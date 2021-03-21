@@ -6,12 +6,13 @@
     rgba(189, 189, 189),
     rgba(158, 158, 158),
     rgba(125, 125, 125),
-    rgba(105, 105, 105),
+    rgba(105, 105, 105)
   );
 }
 
 .hero {
-  padding: 15rem 15% 0;
+  padding: 15rem 10% 0;
+  margin-bottom: auto;
 }
 
 .hero-title {
