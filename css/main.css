@@ -1,3 +1,7 @@
+:root {
+  --base-color: rgba(105, 105, 105);
+}
+
 .navbar {
   background: -webkit-linear-gradient(
     0deg,
@@ -8,6 +12,28 @@
     rgba(125, 125, 125),
     rgba(105, 105, 105)
   );
+}
+
+.navbar-brand {
+  color: var(--base-color);
+}
+
+.navbar-brand:hover {
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-brand:active {
+  color:#182848;
+}
+
+.nav-link { 
+  color: var(--base-color);
+}
+
+.nav-link:hover {
+  color: white;
 }
 
 ::-webkit-scrollbar {
