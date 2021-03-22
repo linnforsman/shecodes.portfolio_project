@@ -11,8 +11,7 @@
 }
 
 .hero {
-  padding: 15rem 10% 0;
-  margin-bottom: auto;
+  padding: 600px 300px;
 }
 
 .hero-title {
@@ -118,4 +117,15 @@ ul {
 
 .fab {
   font-size: 30px;
+}
+
+
+
+@media (max-width: 576px) {
+  .hero {
+  padding: 160px 20px;
+}
+.hero-title {
+  font-size: 50px;
+}
 }
