@@ -1,5 +1,6 @@
 :root {
   --base-color: rgba(105, 105, 105);
+  --accent-color: rgba(255, 255, 255);
 }
 
 .navbar {
@@ -96,6 +97,15 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+a {
+  text-decoration: none;
+  color: var(--base-color);
+}
+a:hover {
+  color: var(--accent-color);
+}
+
+
 .hero-button {
   color: black;
   border: 0.9px;
@@ -106,7 +116,7 @@ h1 {
 .hero-button:hover {
   color: white;
   background: -webkit-linear-gradient(
-    180deg,
+    70deg,
     rgba(0, 0, 0),
     rgba(105, 105, 105),
     rgba(125, 125, 125),
@@ -146,15 +156,6 @@ footer {
   );
 }
 
-footer .social-links a {
-  text-decoration: none;
-  padding: 25px 15px;
-  color: darkred;
-}
-
-footer .social-links a:hover {
-  color: white;
-}
 
 .footer-up {
   font-size: 25px;
