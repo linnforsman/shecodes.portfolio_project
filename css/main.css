@@ -119,13 +119,35 @@ ul {
   font-size: 30px;
 }
 
+.footer-icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  flex-direction: row;
+}
 
+.footer-icons:hover {
+  color: white;
+}
+
+.footer-up {
+  font-size: 25px;
+  color: white;
+}
+
+footer {
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(189, 189, 189),
+    rgba(211, 211, 211)
+  );
+}
 
 @media (max-width: 576px) {
   .hero {
-  padding: 160px 20px;
-}
-.hero-title {
-  font-size: 50px;
-}
+    padding: 160px 20px;
+  }
+  .hero-title {
+    font-size: 50px;
+  }
 }
