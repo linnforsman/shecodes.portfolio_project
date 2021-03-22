@@ -62,10 +62,8 @@
       <h2 class="hero-subtitle">
         Aspiring Data Scientist. Broad interest in technology and many subjects.
       </h2>
-      <button class="btn hero-button" type="button" id="contact">
-        Contact
-      </button>
-      <button class="btn hero-button" type="button">View projects</button>
+      <a href="#contact" class="btn hero-button" role="button"> Contact</a>
+      <a class="btn hero-button" role="button">View projects</a>
     </div>
     <div class="container">
       <div class="home-about mt-5">
@@ -80,8 +78,8 @@
               subjects. Tough problems drives me.
             </p>
             <div>
-              <button class="btn" type="button">Contact</button>
-              <button class="btn" type="button">View projects</button>
+              <a class="btn" role="button">Contact</a>
+              <a class="btn" role="button">View projects</a>
             </div>
           </div>
         </div>
@@ -97,23 +95,41 @@
     <footer class="footer p-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <h3 id="contact">Contact</h3>
-            <div>Linn Forsman</div>
-            <div>linnmetal7@gmail.com</div>
+          <div class="col-md-6">
+            <h3>Contact</h3>
+            <div class="contact-form" id="contact">
+              <form class="contact-form">
+                <div class="half left cf">
+                  <input type="text" id="input-name" placeholder="Name" />
+                  <input type="email" id="input-email" placeholder="Email" />
+                  <input type="text" id="input-subject" placeholder="Subject" />
+                </div>
+                <div class="half right cf">
+                  <textarea
+                    name="message"
+                    type="text"
+                    id="input-message"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <input type="submit" value="Submit" id="input-submit" />
+              </form>
+            </div>
           </div>
-          <div class="col-md-4">
-            <h3>About</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-left">
+            <h5 class="mt-5">About This Page</h5>
+            <small>
+              <p class="footer-paragraph">
+                This website was coded in HTML, CSS, and JavaScript. Source-code
+                is hosted in this repository on GitHub and deployed with
+                Netlify.
+              </p>
+            </small>
           </div>
         </div>
         <div class="copyright-text text-center mt-5">
-          <div class="footer-social">
-            <ul class="footer-icons">
-              <li><i class="fab fa-github"></i></li>
-              <li><i class="fab fa-medium-m"></i></li>
-              <li><i class="fab fa-linkedin-in"></i></li>
-            </ul>
-          </div>
           <small class="text-center">Copyright © 2021 | Linn Forsman</small>
           <div class="back-to-top text-center mt-5">
             <a href="#">
