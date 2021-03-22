@@ -119,29 +119,26 @@ ul {
   font-size: 30px;
 }
 
-.footer-icons {
-  display: flex;
-  justify-content: space-evenly;
-  flex: 1;
-  flex-direction: row;
-}
-
-.footer-icons:hover {
-  color: white;
-}
-
-.footer-up {
-  font-size: 25px;
-  color: white;
-}
-
 footer {
   background: -webkit-linear-gradient(
     180deg,
     rgba(189, 189, 189),
     rgba(211, 211, 211)
-  );
-}
+    );
+  }
+  
+  .footer-icons i {
+    color: darkred;
+  }
+  
+  .footer-icons i:hover {
+    color: white;
+  }
+  
+  .footer-up {
+    font-size: 25px;
+    color: white;
+  }
 
 @media (max-width: 576px) {
   .hero {
