@@ -37,6 +37,11 @@
   color: white;
 }
 
+.navbar-toggler-icon {
+  font-size: 25px;
+  text-align: center;
+}
+
 ::-webkit-scrollbar {
   width: 15px;
 }
