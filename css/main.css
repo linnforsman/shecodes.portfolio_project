@@ -26,10 +26,10 @@
 }
 
 .navbar-brand:active {
-  color:#182848;
+  color: #182848;
 }
 
-.nav-link { 
+.nav-link {
   color: var(--base-color);
 }
 
@@ -75,6 +75,10 @@
   color: gray;
 }
 
+.featured-title {
+  font-size: 77px;
+}
+
 body {
   margin: 0 auto;
   padding: 0;
@@ -105,7 +109,6 @@ a:hover {
   color: var(--accent-color);
 }
 
-
 .hero-button {
   color: black;
   border: 0.9px;
@@ -125,6 +128,27 @@ a:hover {
     rgba(211, 211, 211)
   );
   transition: all 0.2s;
+}
+
+.featured {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.secretprj {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.secretprj:hover {
+  -webkit-filter: grayscale(0%);
+  transition: all 1s ease;
 }
 
 .skills-text {
@@ -156,6 +180,10 @@ footer {
   );
 }
 
+.footer-paragraph {
+  font-family: Consolas;
+  color: grey;
+}
 
 .footer-up {
   font-size: 25px;
@@ -169,4 +197,7 @@ footer {
   .hero-title {
     font-size: 50px;
   }
+  .featured-title {
+  font-size: 25px;
+}
 }
