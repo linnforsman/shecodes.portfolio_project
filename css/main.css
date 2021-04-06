@@ -178,7 +178,15 @@ a:hover {
   -webkit-text-fill-color: transparent;
 }
 
+.social-icons-small {
+  font-size: 12px;
+}
+
 .fab {
+  font-size: 30px;
+}
+
+.fas {
   font-size: 30px;
 }
 
@@ -190,7 +198,7 @@ footer {
   );
 }
 
-.footer-paragraph {
+.footer-text {
   font-family: Consolas;
   color: grey;
 }
@@ -199,7 +207,6 @@ footer {
   font-size: 25px;
   color: white;
 }
-
 
 @media (max-width: 767.98px) {
   .hero {
