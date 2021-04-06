@@ -168,20 +168,6 @@ a:hover {
   -webkit-text-fill-color: transparent;
 }
 
-.other-skills {
-  background: linear-gradient(
-    90deg,
-    rgba(57, 255, 20, 1) 0%,
-    rgba(255, 252, 81, 1) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.social-icons-small {
-  font-size: 12px;
-}
-
 .fab {
   font-size: 30px;
 }
@@ -190,22 +176,26 @@ a:hover {
   font-size: 30px;
 }
 
+.footer-icon {
+  font-size: 25px;
+}
+
 footer {
-  background: -webkit-linear-gradient(
-    180deg,
-    rgba(189, 189, 189),
-    rgba(211, 211, 211)
-  );
+  background: black;
+}
+
+.footer-title {
+  color: hsla(0, 0%, 100%);
 }
 
 .footer-text {
-  font-family: Consolas;
-  color: grey;
+  font-size: 15px;
+  font-family: monospace;
+  color: hsl(0, 0%, 100%);
 }
 
-.footer-up {
-  font-size: 25px;
-  color: white;
+.footer-item {
+  color: #0c8ed1;
 }
 
 @media (max-width: 767.98px) {
@@ -216,7 +206,7 @@ footer {
     font-size: 50px;
   }
   .featured-title {
-    font-size: 50px;
+    font-size: 25px;
   }
 }
 
