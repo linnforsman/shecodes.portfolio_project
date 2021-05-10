@@ -73,16 +73,17 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 77px;
+  font-size: 25px;
   font-weight: auto;
 }
 
 .hero-subtitle {
   color: gray;
+  font-size: 25px;
 }
 
 .featured-title {
-  font-size: 77px;
+  font-size: 25px;
 }
 
 body {
