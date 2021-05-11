@@ -170,6 +170,11 @@ a:hover {
   -webkit-text-fill-color: transparent;
 }
 
+.nav-pills .nav-link.active {
+  background-color: grey;
+  font-style: italic;
+}
+
 .fab {
   font-size: 30px;
 }
